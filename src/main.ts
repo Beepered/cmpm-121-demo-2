@@ -165,6 +165,7 @@ clearButton.innerHTML = "CLEAR";
 buttonPanel.append(clearButton);
 clearButton.addEventListener("mousedown", () => {
     displayCommands = [];
+    redoCommands = [];
     clearScreen();
 });
 
